@@ -1,0 +1,79 @@
+/* footer */
+
+.footer-top {
+    background-color: rgb(10, 10, 10);
+    padding: 50px 0;
+}
+
+.part-two h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: white;
+}
+
+.part-two h2::before {
+    content: '|';
+    color: white;
+    padding-right: 5px;
+}
+
+.part-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.part-two ul li {
+    line-height: 40px;
+    border-bottom: 1px solid white;
+    width: 230px;
+}
+
+.part-two ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.part {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: white;
+}
+
+.part h2::before {
+    content: '|';
+    color: white;
+    padding-right: 5px;
+}
+
+.part a {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.part a i {
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+    padding: 8px 8px;
+}
+
+.part input[type=submit] {
+    background-color: #dfccf3;
+    border: none;
+    padding: 3px 15px;
+    color: rgb(19, 18, 18);
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    line-height: 50px;
+    color: white;
+}
